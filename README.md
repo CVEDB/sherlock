@@ -1,8 +1,8 @@
 <p align=center>
   <br>
-  <a href="https://sherlock-project.github.io/" target="_blank"><img src="https://user-images.githubusercontent.com/27065646/53551960-ae4dff80-3b3a-11e9-9075-cef786c69364.png"/></a>
+  <a href="https://cvedb.github.io/sherlock" target="_blank"><img src="https://user-images.githubusercontent.com/27065646/53551960-ae4dff80-3b3a-11e9-9075-cef786c69364.png"/></a>
   <br>
-  <span>Hunt down social media accounts by username across <a href="https://github.com/sherlock-project/sherlock/blob/master/sites.md">social networks</a></span>
+  <span>Hunt down social media accounts by username across <a href="https://github.com/CVEDB/sherlock/blob/master/sites.md">social networks</a></span>
   <br>
 </p>
 
@@ -26,7 +26,7 @@
 
 ```console
 # clone the repo
-$ git clone https://github.com/sherlock-project/sherlock.git
+$ git clone https://github.com/cvedb/sherlock.git
 
 # change the working directory to sherlock
 $ cd sherlock
@@ -88,12 +88,12 @@ optional arguments:
 
 To search for only one user:
 ```
-python3 sherlock user123
+python3 sherlock gitworkflows
 ```
 
 To search for more than one user:
 ```
-python3 sherlock user1 user2 user3
+python3 sherlock gitworkflows cyberoslab
 ```
 
 Accounts found will be stored in an individual text file with the corresponding username (e.g ```user123.txt```).
@@ -140,7 +140,7 @@ Here are some things we would appreciate your help on:
 - Addition of new site support ¹
 - Bringing back site support of [sites that have been removed](removed_sites.md) in the past due to false positives
 
-[1] Please look at the Wiki entry on [adding new sites](https://github.com/sherlock-project/sherlock/wiki/Adding-Sites-To-Sherlock)
+[1] Please look at the Wiki entry on [adding new sites](https://github.com/cvedb/sherlock/wiki/Adding-Sites-To-Sherlock)
 to understand the issues.
 
 ## Tests
@@ -172,9 +172,9 @@ list of sites to ignore (one site name per line).
 
 ## Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/sherlock-project/sherlock.svg)](https://starchart.cc/sherlock-project/sherlock)
+[![Stargazers over time](https://cvedb.github.io/sherlock.svg)](https://cvedb.github.io/sherlock)
 
 ## License
 
-MIT © Sherlock Project<br/>
-Original Creator - [Siddharth Dushantha](https://github.com/sdushantha)
+MIT © cvedb <br/>
+Original Creator - [Cyber OS Lab.](https://github.com/cvedb)
